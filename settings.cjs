@@ -6,7 +6,7 @@ module.exports = {
   "PORT": "3000",
   "AUTOREADSTATUS": true,
   "MODE": "public",
-  "BOTNUMBER": "94717775628",
+  "BOTNUMBER": "94787329301",
   "OMDBAPI_KEY": "76cb7f39",
   "READCMD": true,
   "AUTOVOICE": false,
@@ -21,7 +21,7 @@ module.exports = {
   "ANTIDELETE": true,
   "ALLWAYSONLINE": true,
   "MOROCCOBLOCK": true,
-  "OWNERNAME": "MR JANIYA",
+  "OWNERNAME": "MR Thisula",
   "NEWSJID": "120363393420637374@g.us",
   "MOVIEJID": false,
   "ANIMEJID": "120363367650594508@g.us",
@@ -33,6 +33,6 @@ module.exports = {
   "AIMODE": false,
   "BANNED": [],
   "SUDO": [
-    "94717775628"
+    "94787329301"
   ]
 };
