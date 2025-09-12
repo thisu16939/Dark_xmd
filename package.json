@@ -1,12 +1,12 @@
 {
   "name": "Dark_xmd",
-  "version": "4",
+  "version": "1",
   "description": "A Simple WhatsApp bot created By Thisula",
-  "main": "queen.js",
+  "main": "Dark.js",
   "scripts": {
-    "start": "pm2 start queen.js --deep-monitoring --attach --name Queen_Anju",
-    "stop": "pm2 stop Queen_Anju",
-    "restart": "pm2 restart Queen_Anju"
+    "start": "pm2 start Dark.js --deep-monitoring --attach --name Dark_xmd",
+    "stop": "pm2 stop Dark_xmd",
+    "restart": "pm2 restart Dark_xmd"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
