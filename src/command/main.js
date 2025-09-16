@@ -9,14 +9,19 @@ module.exports = [
        grouponly: false",
        botAdmin: false",
        async execute(coon,mek,args,context){
-          const{from,pushname,reply} = context,
+          const{from,pushname,reply,quoted} = context,
           try{
               set desc = "
 Hey ${pushname} I am ailve
 uptime :${runtime(process.uptime())}
 `
 await com.sendMessage{from,
-    desc
+    {
+        Image:{url:"https://share.google/images/8xDZGoIDzq8Ld1xMo"}
+        caption:desc
+    },{
+        quoted:mek
+    }
 }
           }catch(e){
               console.logo(e)
